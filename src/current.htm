@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Steam Community Market :: Listings for FAMAS | Afterimage (Factory New)</title>
+<link href="http://cdn.steamcommunity.com/public/shared/css/buttons.css?v=3818641943" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/shared/css/shared_global.css?v=1015216316" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/css/globalv2.css?v=3389421549" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/css/skin_1/economy.css?v=547425178" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/css/skin_1/economy_market.css?v=3242925101" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/css/skin_1/html5.css?v=2852419396" rel="stylesheet" type="text/css" >
+<link href="http://cdn.steamcommunity.com/public/css/skin_1/header.css?v=28485743" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/prototype-1.7.js?v=3322715240&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/scriptaculous/scriptaculous.js?load=effects,controls,slider,dragdrop&amp;v=2751892671&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/global.js?v=730227173&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/jquery-1.8.3.min.js?v=138226611&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/shared/javascript/tooltip.js?v=1332300596&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/shared/javascript/shared_global.js?v=3496127634&amp;l=english"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/cdn.steamcommunity.com\/public\/javascript\/json2.js?v=335369149&amp;l=english\"><\/script>\n" ); };
+</script><script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/economy.js?v=3883495282&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/market.js?v=1105702937&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/modalv2.js?v=640373855&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/jqplot/jquery.jqplot.js?v=325893673&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/jqplot/plugins/jqplot.cursor.js?v=1546577426&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/jqplot/plugins/jqplot.dateAxisRenderer.js?v=1512010751&amp;l=english"></script>
+<script type="text/javascript" src="http://cdn.steamcommunity.com/public/javascript/jqplot/plugins/jqplot.highlighter.js?v=2509816630&amp;l=english"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33779068-1']);
+  _gaq.push(['_setSampleRate', '0.4']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_setCustomVar', 3, 'Cntrlr', 'market', 3]);
+  _gaq.push(['_setCustomVar', 4, 'Method', "market\/listings", 3]);
+  _gaq.push(['_setDomainName', 'steamcommunity.com']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div style="width: 100%; text-align: center">
+<!-- header bar, contains info browsing user if logged in -->
+<div id="global_header">
+	<div class="content">
+	
+		<div class="logo">
+			<span id="logo_holder">
+				<a href="http://store.steampowered.com/">
+					<img src="http://cdn.steamcommunity.com/public/images/header/globalheader_logo.png" width="176" height="44" border="0" alt="Steam Logo" />
+				</a>
+			</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+			#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+			#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://cdn.steamcommunity.com/public/images/header/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+
+		<div style="position: absolute; left: 200px;" id="supernav">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-content="
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/&quot;>Featured</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/news/&quot;>News</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/recommended/&quot;>Recommended</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/my/wishlist/&quot;>Wishlist</a>
+		<a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/stats/&quot;>STATS</a>
+	">
+		STORE	</a>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-content="
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/&quot;>Home</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/discussions/&quot;>DISCUSSIONS</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/workshop/&quot;>Workshop</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/greenlight/&quot;>Greenlight</a>
+					<a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/market/&quot;>Market</a>
+													">
+
+		Community	</a>
+
+	
+
+	
+	<a class="menuitem" href="http://store.steampowered.com/about/">
+		ABOUT	</a>
+
+	<a class="menuitem" href="http://support.steampowered.com/">
+		SUPPORT	</a>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function($) { 
+		$('.tooltip').tooltip();
+		$('.supernav').tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#supernav', 'correctForScreenSize': false});
+	});
+</script>		<div id="global_actions">
+						<div id="global_action_menu">
+
+				<div class="header_installsteam_btn header_installsteam_btn_green">
+					<div class="header_installsteam_btn_leftcap"></div>
+					<div class="header_installsteam_btn_rightcap"></div>
+					<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+						Install Steam					</a>
+				</div>
+															<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FFAMAS+%7C+Afterimage+%28Factory+New%29">Login</a>
+						&nbsp;|&nbsp;
+										<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+					<div class="popup_block" id="language_dropdown" style="display: none;">
+						<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>						<div class="popup_body popup_menu shadow_content">
+																						<a class="popup_menu_item tight" href="?l=bulgarian">Български (Bulgarian)</a>
+																						<a class="popup_menu_item tight" href="?l=czech">čeština (Czech)</a>
+																						<a class="popup_menu_item tight" href="?l=danish">Dansk (Danish)</a>
+																						<a class="popup_menu_item tight" href="?l=dutch">Nederlands (Dutch)</a>
+																														<a class="popup_menu_item tight" href="?l=finnish">Suomi (Finnish)</a>
+																						<a class="popup_menu_item tight" href="?l=french">Français (French)</a>
+																						<a class="popup_menu_item tight" href="?l=german">Deutsch (German)</a>
+																						<a class="popup_menu_item tight" href="?l=greek">Ελληνικά (Greek)</a>
+																						<a class="popup_menu_item tight" href="?l=hungarian">Magyar (Hungarian)</a>
+																						<a class="popup_menu_item tight" href="?l=italian">Italiano (Italian)</a>
+																						<a class="popup_menu_item tight" href="?l=japanese">日本語 (Japanese)</a>
+																						<a class="popup_menu_item tight" href="?l=koreana">한국어 (Korean)</a>
+																						<a class="popup_menu_item tight" href="?l=norwegian">Norsk (Norwegian)</a>
+																						<a class="popup_menu_item tight" href="?l=polish">Polski (Polish)</a>
+																						<a class="popup_menu_item tight" href="?l=portuguese">Português (Portuguese)</a>
+																						<a class="popup_menu_item tight" href="?l=brazilian">Português-Brasil (Portuguese-Brazil)</a>
+																						<a class="popup_menu_item tight" href="?l=romanian">Română (Romanian)</a>
+																						<a class="popup_menu_item tight" href="?l=russian">Русский (Russian)</a>
+																						<a class="popup_menu_item tight" href="?l=schinese">简体中文 (Simplified Chinese)</a>
+																						<a class="popup_menu_item tight" href="?l=spanish">Español (Spanish)</a>
+																						<a class="popup_menu_item tight" href="?l=swedish">Svenska (Swedish)</a>
+																						<a class="popup_menu_item tight" href="?l=tchinese">繁體中文 (Traditional Chinese)</a>
+																						<a class="popup_menu_item tight" href="?l=thai">ไทย (Thai)</a>
+																						<a class="popup_menu_item tight" href="?l=turkish">Türkçe (Turkish)</a>
+																						<a class="popup_menu_item tight" href="?l=ukrainian">Українська (Ukrainian)</a>
+														<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+						</div>
+					</div>
+							</div>
+		</div>
+		
+		
+		
+	</div>
+
+</div>
+
+<div id="modalBG" style="display: none"></div>
+<script type="text/javascript">
+	g_sessionID = "NjM1NjcxNTg=";
+	g_steamID = false;
+	$J( InitMiniprofileHovers );
+	$J( InitEmoticonHovers );
+
+	$J( function() {
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	})
+
+	$J( function() { InitEconomyHovers( "<link href=\"http:\/\/cdn.steamcommunity.com\/public\/css\/skin_1\/economy.css?v=547425178\" rel=\"stylesheet\" type=\"text\/css\" >\n", "<script type=\"text\/javascript\" src=\"http:\/\/cdn.steamcommunity.com\/public\/javascript\/economy.js?v=3883495282&amp;l=english\"><\/script>\n" );});</script><!-- /header bar -->
+</div>
+
+<div id="NotLoggedInWarning" class="modal_frame" style="display: none">
+	<div class="modal_box">
+		<div class="notLoggedInText">You need to sign in or create an account to do that.</div>
+		<div class="notLoggedInButtons">
+			<a class="btn_green_white_innerfade btn_small_wide" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FFAMAS%2520%257C%2520Afterimage%2520%2528Factory%2520New%2529"><span>Sign In</span></a>
+			<a class="btn_green_white_innerfade btn_small_wide" href="http://store.steampowered.com/join"><span>Create an Account</span></a>
+			<a class="btn_grey_black btn_small" onclick="hideModal( 'NotLoggedInWarning' )"><span>Cancel</span></a>
+			<div style="clear: left"></div>
+		</div>
+	</div>
+</div>
+
+<div class="pagecontent no_header ">
+<!-- top content -->
+<div id="modalContentScrollbarHack" style="display: none"></div>
+
+<div id="modalContent" class="modal_frame" style="display: none">
+	<div id="modalContentTitleBar">
+		<a id="modalContentTitleBarLink" href="" target="_blank">&nbsp;</a>
+		<a id="modalContentTitleBarImageLink" href="" target="_blank"><img src="http://cdn.steamcommunity.com/public/images/skin_1/ico_external_link.gif" alt=""></a>
+		<div id="modalContentDismiss" class="modalContentDismissImage" onclick="HideModalContent();">
+			<img src="http://cdn.steamcommunity.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close">
+		</div>
+	</div>
+	<div id="modalContentWait"><img src="http://cdn.steamcommunity.com/public/images/login/throbber.gif" alt="Loading"></div>
+	<div id="modalContentFrameContainer"></div>
+</div><div id="BG_top">
+	<h1 class="market_header_title">
+		<a href="http://steamcommunity.com/market/">
+			<img src="http://cdn.steamcommunity.com/public/images/economy/market/header/header_en.png" alt="Steam Community Market" />
+		</a>
+	</h1>
+		<div class="market_header_hidden">
+		<p>Buy and sell items with community members for Steam Wallet funds.</p>
+	</div>
+	</div><!-- /top content -->
+<!-- main body -->
+<div id="BG_bottom">
+	<div id="mainContents">
+		<div class="market_listing_nav_container">
+						<div class="market_listing_nav">
+									<a href="http://steamcommunity.com/market/search?q=appid%3A730">Counter-Strike: Global Offensive</a>
+					&gt;
+										<a href="http://steamcommunity.com/market/listings/730/FAMAS%20%7C%20Afterimage%20%28Factory%20New%29">FAMAS | Afterimage (Factory New)</a>
+							</div>
+		</div>
+					<div class="market_page_fullwidth market_listing_firstsection">
+				<div class="market_listing_iteminfo">
+					<div class="market_listing_largeimage">
+												<img src="http://cdn.steamcommunity.com/economy/image/Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9/360fx360f" alt="" />
+					</div>
+					<div id="largeiteminfo">
+						<div class="inventory_iteminfo hover_box" id="largeiteminfo_clienthover">
+							<div class="item_desc_content" id="largeiteminfo_content">
+								<div class="item_desc_icon">
+									<div class="item_desc_icon_center">
+										<img id="largeiteminfo_item_icon" src="http://cdn.steamcommunity.com/public/images/trans.gif" alt="" />
+									</div>
+								</div>
+								<div class="item_desc_description">
+									<h1 class="hover_item_name" id="largeiteminfo_item_name"></h1>
+									<div class="fraud_warning" id="largeiteminfo_fraud_warnings"></div>
+									<div class="item_desc_game_info" id="largeiteminfo_game_info">
+										<div class="item_desc_game_icon">
+											<img id="largeiteminfo_game_icon" src="http://cdn.steamcommunity.com/public/images/trans.gif" alt="" />
+										</div>
+										<div id="largeiteminfo_game_name" class="ellipsis"></div>
+										<div id="largeiteminfo_item_type" class=""></div>
+									</div>
+									<div class="item_desc_descriptors" id="largeiteminfo_item_descriptors">
+									</div>
+									<div class="item_actions" id="largeiteminfo_item_actions">
+									</div>
+									<div class="item_desc_descriptors" id="largeiteminfo_item_owner_descriptors">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both"></div>
+					<div id="largeiteminfo_warning">
+						<br/>
+						The appearance of items in the individual listings may vary slightly from the one above. For example, items could have custom names, descriptions, or colors.					</div>
+					<hr style="background-color: #333; border-style: solid none none; border-color: black; border-width: 1px 0 0; height: 2px">
+											<div id="pricehistory"></div>
+						<br>
+						<div class="zoom_controls pricehistory_zoom_controls">
+							Zoom graph:							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 7 );" href="javascript:void(0)">Week</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 30 );" href="javascript:void(0)">Month</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );" href="javascript:void(0)" style="padding-right: 0">Lifetime</a>
+						</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+			<div id="listings" class="market_page_fullwidth" style="padding-top: 0">
+				<div class="market_listing_filter">
+	<div class="market_listing_filter_contents">
+		<form id="market_listing_filter_form" accept-charset="UTF8" action="http://steamcommunity.com/market/listings/730/FAMAS%20%7C%20Afterimage%20%28Factory%20New%29" method="GET" >
+					<span class="market_listing_filter_searchhint">
+									Looking for a specific item?							</span>
+			<span style="position: relative; display: inline-block;">
+									<input class="filter_search_box market_search_filter_search_box" type="text" id="market_listing_filter_search_box" value="" placeholder="Search name, description, type" name="filter" autocomplete="off" />
+								<input class="market_search_submit_button" id="market_listing_filter_submit" type="submit" value="Submit" />
+			</span>
+		</form>
+	</div>
+</div>				<div class="market_large_tab_well">
+					<h2 class="market_section_title">
+						Listings					</h2>
+					<div class="market_large_tab_well_gradient selectableNone"></div>
+					<div class="market_tab_well_tabs">
+					</div>
+					<div class="market_section_header_cap selectableNone"></div>
+				</div>
+				<div id="searchResultsTable" class="market_content_block market_home_listing_table market_home_main_listing_table market_listing_table">
+					<div id="searchResultsRows">
+						<div class="market_listing_table_header">
+	<span class="market_listing_right_cell market_listing_action_buttons"></span>
+	<span class="market_listing_right_cell market_listing_their_price">PRICE</span>
+	<span class="market_listing_right_cell market_listing_seller">SELLER</span>
+	<div><span class="market_listing_header_namespacer"></span>NAME</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2847703156655782736" id="listing_2847703156655782736">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2847703156655782736_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2847703156655782736', 730, '2', '134388057')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				0,88&#8364; 			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				0,78&#8364; 			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/id/colo_ons" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/a8/a84fdabaaee9ed6d55fdcaf78bbc026fc22fee4b.jpg" alt="" data-miniprofile="76746934">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2847703156655782736_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2847703156649545114" id="listing_2847703156649545114">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2847703156649545114_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2847703156649545114', 730, '2', '134333876')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				44,39 p&#1091;&#1073;.			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				38,60 p&#1091;&#1073;.			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198055276336" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/c7/c7cfe7997ead5cf46ca3c64a85d269752e29592c.jpg" alt="" data-miniprofile="95010608">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2847703156649545114_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2853332656189571391" id="listing_2853332656189571391">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2853332656189571391_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2853332656189571391', 730, '2', '134365600')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				0,89&#8364; 			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				0,79&#8364; 			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/id/vuws" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/f6/f64eb301e1e65fb8a4ba3255e8b07852f6c52954.jpg" alt="" data-miniprofile="10137813">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2853332656189571391_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2847703156649056872" id="listing_2847703156649056872">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2847703156649056872_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2847703156649056872', 730, '2', '134319840')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				44,80 p&#1091;&#1073;.			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				38,97 p&#1091;&#1073;.			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561198121994492" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/47/47115eef6be0762fcae6760fc58f991822cec660.jpg" alt="" data-miniprofile="161728764">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2847703156649056872_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2847703156647897906" id="listing_2847703156647897906">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2847703156647897906_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2847703156647897906', 730, '2', '134310929')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				&#36;1.27 USD			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				&#36;1.11 USD			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/id/tulicove" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" alt="" data-miniprofile="157013342">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2847703156647897906_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2853332656184463541" id="listing_2853332656184463541">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2853332656184463541_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2853332656184463541', 730, '2', '134320410')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				45,97 p&#1091;&#1073;.			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				39,99 p&#1091;&#1073;.			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/profiles/76561197992975195" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/3b/3b61005199ae86a9847e5d54c4f0387037e5ff8d.jpg" alt="" data-miniprofile="32709467">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2853332656184463541_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2853332656184477925" id="listing_2853332656184477925">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2853332656184477925_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2853332656184477925', 730, '2', '134320377')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				45,97 p&#1091;&#1073;.			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				39,99 p&#1091;&#1073;.			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/profiles/76561197992975195" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/3b/3b61005199ae86a9847e5d54c4f0387037e5ff8d.jpg" alt="" data-miniprofile="32709467">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2853332656184477925_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2853332656164748577" id="listing_2853332656164748577">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2853332656164748577_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2853332656164748577', 730, '2', '134176507')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				&#36;1.30 USD			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				&#36;1.14 USD			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online" >
+				<a href="http://steamcommunity.com/profiles/76561198033973851" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/05/056cde23c8ef02828e2240ca409080cd579b7b2f.jpg" alt="" data-miniprofile="73708123">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2853332656164748577_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2847703156632817924" id="listing_2847703156632817924">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2847703156632817924_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2847703156632817924', 730, '2', '133634290')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				0,97&#8364; 			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				0,85&#8364; 			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline" >
+				<a href="http://steamcommunity.com/profiles/76561197993127930" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/39/3966e4dd9bb6f9dddad00e17c66842afad95eae0.jpg" alt="" data-miniprofile="32862202">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2847703156632817924_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_2853332656185575305" id="listing_2853332656185575305">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_2853332656185575305_image" src="http://cdn.steamcommunity.com/economy/image/eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="" />	</div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '2853332656185575305', 730, '2', '133017945')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span>
+						<span class="market_listing_price market_listing_price_with_fee">
+				0,97&#8364; 			</span>
+			<span class="market_listing_price market_listing_price_without_fee">
+				0,85&#8364; 			</span>
+			<br/>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game" >
+				<a href="http://steamcommunity.com/id/JeeFo-" >
+					<img src="http://media.steampowered.com/steamcommunity/public/images/avatars/05/0567f1aae2b57f1ffbb4d443cbfecb83894873b5.jpg" alt="" data-miniprofile="3098259">
+				</a>
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_2853332656185575305_name" class="market_listing_item_name" style="color: #D2D2D2;">FAMAS | Afterimage</span>
+		<br/>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+					</div>
+						<div id="searchResults_ctn" class="market_paging" style="">
+		<div class="market_paging_summary">
+			Showing <span id="searchResults_start">1</span>-<span id="searchResults_end">10</span> of <span id="searchResults_total">63</span> results		</div>
+		<div class="market_paging_controls" id="searchResults_controls">
+			<span id="searchResults_btn_prev" class="pagebtn">&lt;</span>
+			<span id="searchResults_links"></span>
+			<span id="searchResults_btn_next" class="pagebtn">&gt;</span>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+				</div>
+			</div>
+				<div style="clear:both"></div>
+	</div>
+
+	<div id="hover" style="display: none;">
+		<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>		<div class="inventory_iteminfo hover_box shadow_content" id="iteminfo_clienthover">
+			<div class="item_desc_content" id="hover_content">
+				<div class="item_desc_icon">
+					<div class="item_desc_icon_center">
+						<img id="hover_item_icon" src="http://cdn.steamcommunity.com/public/images/trans.gif" alt="" />
+					</div>
+				</div>
+				<div class="item_desc_description">
+					<h1 class="hover_item_name" id="hover_item_name"></h1>
+					<div class="fraud_warning" id="hover_fraud_warnings"></div>
+					<div class="item_desc_game_info" id="hover_game_info">
+						<div class="item_desc_game_icon">
+							<img id="hover_game_icon" src="http://cdn.steamcommunity.com/public/images/trans.gif" alt="" />
+						</div>
+						<div id="hover_game_name" class="ellipsis"></div>
+						<div id="hover_item_type" class=""></div>
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_descriptors">
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_owner_descriptors">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hover_arrow_left" id="hover_arrow_left">
+			<div class="hover_arrow_inner"></div>
+		</div>
+		<div class="hover_arrow_right" id="hover_arrow_right">
+			<div class="hover_arrow_inner"></div>
+		</div>
+	</div>
+</div></div>
+<div id="market_buynow_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_buynow_dialog_title">
+			Buy an item		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_buynow_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+			<a id="market_buynow_dialog_cancel_close" href="#" class="market_dialog_title_cancel" style="display: none">Close<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_buynow_dialog_contents" class="market_dialog_contents">
+		<div id="market_buynow_dialog_purchasecomplete_message">
+			<div class="market_dialog_topinfo">
+				Congratulations on your purchase! You can view your new item in your <a href="http://steamcommunity.com/my/inventory/">inventory</a>.			</div>
+			<div class="market_dialog_content_spacer">
+			</div>
+		</div>
+		<div id="market_buynow_dialog_item">
+		</div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_totals" class="market_dialog_totals">
+			<div>
+				<span id="market_buynow_dialog_totals_subtotal" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Subtotal:</span>
+			</div>
+			<div style="clear: both"></div>
+			<br/>
+			<div>
+				<span id="market_buynow_dialog_totals_publisherfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label"><span id="market_buynow_dialog_totals_publisherfee_gamename"></span> fee (<span id="market_buynow_dialog_totals_publisherfee_percent"></span>%):</span>
+			</div>
+			<div style="clear: both"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_transactionfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Steam transaction fee (<span id="market_buynow_dialog_totals_transactionfee_percent"></span>%):</span>
+			</div>
+			<div>
+				<span class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label market_buynow_dialog_totals_fee_collector">
+											Fees charged by Valve S.à r.l.									</span>
+			</div>
+			<div style="clear: both"></div>
+			<div class="market_dialog_totals_separator"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_total" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Total:</span>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div style="clear:both"></div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_paymentinfo_frame_container">
+			<div id="market_buynow_dialog_paymentinfo_frame" class="market_dialog_content_frame">
+				<div id="market_buynow_dialog_paymentinfo" class="market_dialog_content market_dialog_content_darker">
+					<div id="market_buynow_dialog_purchase_throbber" style="display: none;">
+						<img src="http://cdn.steamcommunity.com/public/images/login/throbber.gif" alt="Working...">
+					</div>
+					<a id="market_buynow_dialog_purchase" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase"><span>Purchase</span></a>
+					<a id="market_buynow_dialog_addfunds" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase" style="display: none"><span>Add Funds</span></a>
+					<div>
+						<div id="market_buynow_dialog_paymentinfo_option_labels">
+							<span>Payment method:</span>
+							<br/>
+							<br/>
+							<span>Steam account:</span>
+						</div>
+						<div>
+							<span id="market_buynow_dialog_paymentmethod">My Steam Wallet <span id="market_buynow_dialog_walletbalance">(<span id="market_buynow_dialog_walletbalance_amount"></span>)</span></span>
+							<br/>
+							<br/>
+							<span id="market_buynow_dialog_myaccountname"></span>
+						</div>
+					</div>
+					<div id="market_buynow_dialog_accept_ssa_container">
+						<br/>
+						<input id="market_buynow_dialog_accept_ssa" type="checkbox" value="0" name="accept_ssa">
+						<label id="market_buynow_dialog_accept_ssa_label" for="market_buynow_dialog_accept_ssa">I agree to the terms of the <a href="javascript:SSAPopup();" class="body_link" >Steam Subscriber Agreement</a> (last updated 3 Jul, 2013.)</label>
+					</div>
+											<div id="market_buynow_dialog_eu_ssa">
+							<br/>
+							<span>By clicking "Purchase" you agree that you are being provided with immediate access to this digital content and that therefore any possibility of a withdrawal from this purchase ends – the purchase is final.</span>
+						</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_bottom_buttons" style="display: none">
+			<div class="market_dialog_bottom_buttons">
+				<a id="market_buynow_dialog_close" href="#" class="btn_grey_white_innerfade btn_medium_wide"><span>Close</span></a>
+				<a id="market_buynow_dialog_viewinventory" href="http://steamcommunity.com/my/inventory/" class="btn_grey_white_innerfade btn_medium_wide"><span>View Inventory</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_error">
+			<br/>
+			<span id="market_buynow_dialog_error_text"></span>
+		</div>
+	</div>
+</div>
+
+<div id="market_removelisting_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_removelisting_dialog_title">
+			Remove a listing		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_removelisting_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_removelisting_dialog_contents" class="market_dialog_contents">
+		<div id="market_removelisting_dialog_confirmation">
+			<div>
+				Remove the listing for <span id="market_removelisting_dialog_itemname"></span> and return the item to your inventory?			</div>
+			<br/>
+			<div id="market_removelisting_dialog_buttons">
+				<div id="market_removelisting_dialog_accept_throbber" style="display: none;">
+					<img src="http://cdn.steamcommunity.com/public/images/login/throbber.gif" alt="Working...">
+				</div>
+				<a id="market_removelisting_dialog_accept" href="#" class="btn_green_white_innerfade btn_medium_wide"><span>Remove Listing</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_removelisting_dialog_error">
+		</div>
+	</div>
+</div>
+<div id="market_action_popup" class="popup_block_new" style="display: none;">
+	<div class="popup_body popup_menu">
+		<div id="market_action_popup_itemactions">
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+	<div id="footer_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="http://cdn.steamcommunity.com/public/images/skin_1/footerLogo_valve.png" width="96" height="26" border="0" alt="Valve Logo" /></span>
+			<span id="footerText">
+				&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br/>Some geospatial data on this website is provided by <a href="http://www.geonames.org" target="_blank">geonames.org</a>.				<br>
+				<span class="valve_links">
+					<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a> | <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a> | <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+				</span>
+							
+							</span>
+		</div>
+	</div>
+
+	<!-- /footer -->
+
+<script type="text/javascript">
+var g_bLoggedIn = false;
+
+g_bModalModifyAnchorTargets = false;
+g_bModalCacheContent = false;
+</script>
+	<script type="text/javascript">
+		var g_rgAppContextData = {"730":{"appid":730,"name":"Counter-Strike: Global Offensive","icon":"http:\/\/media.steampowered.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","link":"http:\/\/steamcommunity.com\/app\/730"}};
+	var g_rgAssets = {"730":{"2":{"134388057":{"currency":0,"appid":730,"contextid":"2","id":"134388057","classid":"310777274","instanceid":"359097683","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 58405278C259705D685C60D191B0BF5B18905F674E2CE6","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 58405278C259705D685C60D191B0BF5B18905F674E2CE6","name":"Inspect in Game..."}]},"134333876":{"currency":0,"appid":730,"contextid":"2","id":"134333876","classid":"310777274","instanceid":"310923123","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview FAE2F0DA60FBD2FFCAFEC201687716F9BA78FC4FFA82D8","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview FAE2F0DA60FBD2FFCAFEC201687716F9BA78FC4FFA82D8","name":"Inspect in Game..."}]},"134365600":{"currency":0,"appid":730,"contextid":"2","id":"134365600","classid":"310777274","instanceid":"354080637","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 3A22301AA03B123F0A3E02AFFBFFD1397A953DEEB7DB1D","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 3A22301AA03B123F0A3E02AFFBFFD1397A953DEEB7DB1D","name":"Inspect in Game..."}]},"134319840":{"currency":0,"appid":730,"contextid":"2","id":"134319840","classid":"310777274","instanceid":"359333585","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 091103299308210C390D31BFBB84E50A49AF0B8AB7931B","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 091103299308210C390D31BFBB84E50A49AF0B8AB7931B","name":"Inspect in Game..."}]},"134310929":{"currency":0,"appid":730,"contextid":"2","id":"134310929","classid":"310777274","instanceid":"311064925","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 8C9486AC168DA489BC88B427723E608FCC2989FF2A2DA1","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 8C9486AC168DA489BC88B427723E608FCC2989FF2A2DA1","name":"Inspect in Game..."}]},"134320410":{"currency":0,"appid":730,"contextid":"2","id":"134320410","classid":"310777274","instanceid":"357027950","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview D0C8DAF04AD1F8D5E0D4E816643239D39053D3921DDEEF","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview D0C8DAF04AD1F8D5E0D4E816643239D39053D3921DDEEF","name":"Inspect in Game..."}]},"134320377":{"currency":0,"appid":730,"contextid":"2","id":"134320377","classid":"310777274","instanceid":"356080085","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 1C04163C861D34192C182495BBBBF61F5CD919F5A2063F","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 1C04163C861D34192C182495BBBBF61F5CD919F5A2063F","name":"Inspect in Game..."}]},"134176507":{"currency":0,"appid":730,"contextid":"2","id":"134176507","classid":"310777274","instanceid":"331901111","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 544C5E74CE557C5164506C8CFCC5B85714C15554C78CA4","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 544C5E74CE557C5164506C8CFCC5B85714C15554C78CA4","name":"Inspect in Game..."}]},"133634290":{"currency":0,"appid":730,"contextid":"2","id":"133634290","classid":"310777274","instanceid":"355869429","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview CAD2C0EA50CBE2CFFACEF245484426C98A6DC895585AB6","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview CAD2C0EA50CBE2CFFACEF245484426C98A6DC895585AB6","name":"Inspect in Game..."}]},"133017945":{"currency":0,"appid":730,"contextid":"2","id":"133017945","classid":"310777274","instanceid":"313942252","amount":"1","status":2,"background_color":"","icon_url":"eEnFECU8JXRujDAKvXculMAFD6FhTCs0ukLjEFmRZjOxQvLrfCBjZs5VLPSbF3Ia2AJU5mhTKzC8SeQCWIdxOb4A5uFtJGRv3iQo_phdYQvcFB_-LAZlKbBI1RcWj3Mlj0z322k3fmjPFRDrl0x7Nc4QFrAoPGgwuE7-X0KGJmPlHLuzOHB1O5lDKf2TXndYnkVN5jpbZ27pEehGRtoiYbMYurElNX9k","icon_url_large":"Hpi2ImimSeZKVvsx2VVTLKbUfJMs1kemnpgoKz2zG4vXk4HZMboP9OqP58__NQ-ivtMn1CXJR6KYky85PKUMgdjRldMgvgj9-v7jxfx_HLO6xWzMYZwJu5SSHixyrQ6d6Z2E6SStEvrrz9vQ824GjajBZYJlpgSinJQ1FX-hHYnT0MTScupIoreWt5X2Il3qqMZthXLLXv_NyyBycPdZ2dTJwI526B6mtpSq0Px9","descriptions":[{"type":"html","value":"Exterior: Factory New"},{"type":"html","value":" "},{"type":"html","value":"A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs. It has been custom-painted with broken ribbon trails."},{"type":"html","value":"The eSports Winter Collection","color":"9da1a9"},{"type":"html","value":"A portion of the proceeds from the key used to unlock this will help support CS:GO professional tournament prize pools."},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 839B89A31982AB86B387BB147D6E6980C35B80D887053E","name":"Inspect in Game..."}],"name":"FAMAS | Afterimage","name_color":"D2D2D2","type":"Classified Rifle","market_name":"FAMAS | Afterimage (Factory New)","market_hash_name":"FAMAS | Afterimage (Factory New)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 839B89A31982AB86B387BB147D6E6980C35B80D887053E","name":"Inspect in Game..."}]}}}};
+	var g_rgCurrency = [];
+	var g_rgListingInfo = {"2847703156655782736":{"listingid":"2847703156655782736","steamid_lister":"76561198037012662","price":78,"fee":10,"steam_fee":3,"publisher_fee":7,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2003,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134388057","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 58405278C259705D685C60D191B0BF5B18905F674E2CE6","name":"Inspect in Game..."}]}},"2847703156649545114":{"listingid":"2847703156649545114","steamid_lister":"76561198055276336","price":3860,"fee":579,"steam_fee":193,"publisher_fee":386,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2005,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134333876","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview FAE2F0DA60FBD2FFCAFEC201687716F9BA78FC4FFA82D8","name":"Inspect in Game..."}]}},"2853332656189571391":{"listingid":"2853332656189571391","steamid_lister":"76561197970403541","price":79,"fee":10,"steam_fee":3,"publisher_fee":7,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2003,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134365600","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 3A22301AA03B123F0A3E02AFFBFFD1397A953DEEB7DB1D","name":"Inspect in Game..."}]}},"2847703156649056872":{"listingid":"2847703156649056872","steamid_lister":"76561198121994492","price":3897,"fee":583,"steam_fee":194,"publisher_fee":389,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2005,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134319840","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 091103299308210C390D31BFBB84E50A49AF0B8AB7931B","name":"Inspect in Game..."}]}},"2847703156647897906":{"listingid":"2847703156647897906","steamid_lister":"76561198117279070","price":111,"fee":16,"steam_fee":5,"publisher_fee":11,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2001,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134310929","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 8C9486AC168DA489BC88B427723E608FCC2989FF2A2DA1","name":"Inspect in Game..."}]}},"2853332656184463541":{"listingid":"2853332656184463541","steamid_lister":"76561197992975195","price":3999,"fee":598,"steam_fee":199,"publisher_fee":399,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2005,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134320410","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview D0C8DAF04AD1F8D5E0D4E816643239D39053D3921DDEEF","name":"Inspect in Game..."}]}},"2853332656184477925":{"listingid":"2853332656184477925","steamid_lister":"76561197992975195","price":3999,"fee":598,"steam_fee":199,"publisher_fee":399,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2005,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134320377","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 1C04163C861D34192C182495BBBBF61F5CD919F5A2063F","name":"Inspect in Game..."}]}},"2853332656164748577":{"listingid":"2853332656164748577","steamid_lister":"76561198033973851","price":114,"fee":16,"steam_fee":5,"publisher_fee":11,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2001,"asset":{"currency":0,"appid":730,"contextid":"2","id":"134176507","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 544C5E74CE557C5164506C8CFCC5B85714C15554C78CA4","name":"Inspect in Game..."}]}},"2847703156632817924":{"listingid":"2847703156632817924","steamid_lister":"76561197993127930","price":85,"fee":12,"steam_fee":4,"publisher_fee":8,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2003,"asset":{"currency":0,"appid":730,"contextid":"2","id":"133634290","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview CAD2C0EA50CBE2CFFACEF245484426C98A6DC895585AB6","name":"Inspect in Game..."}]}},"2853332656185575305":{"listingid":"2853332656185575305","steamid_lister":"76561197963363987","price":85,"fee":12,"steam_fee":4,"publisher_fee":8,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":2003,"asset":{"currency":0,"appid":730,"contextid":"2","id":"133017945","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview 839B89A31982AB86B387BB147D6E6980C35B80D887053E","name":"Inspect in Game..."}]}}};
+	var g_plotPriceHistory = null;
+	var g_timePriceHistoryEarliest = new Date();
+	var g_timePriceHistoryLatest = new Date();
+
+	ITEM_HOVER_DELAY = 250;
+
+	var g_oSearchResults = null;
+	Event.observe( document, 'dom:loaded', function() {
+		UserYou.LoadContexts( g_rgAppContextData );
+
+							CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156655782736_name', 730, '2', '134388057', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156655782736_image', 730, '2', '134388057', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156649545114_name', 730, '2', '134333876', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156649545114_image', 730, '2', '134333876', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656189571391_name', 730, '2', '134365600', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656189571391_image', 730, '2', '134365600', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156649056872_name', 730, '2', '134319840', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156649056872_image', 730, '2', '134319840', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156647897906_name', 730, '2', '134310929', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156647897906_image', 730, '2', '134310929', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656184463541_name', 730, '2', '134320410', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656184463541_image', 730, '2', '134320410', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656184477925_name', 730, '2', '134320377', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656184477925_image', 730, '2', '134320377', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656164748577_name', 730, '2', '134176507', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656164748577_image', 730, '2', '134176507', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156632817924_name', 730, '2', '133634290', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2847703156632817924_image', 730, '2', '133634290', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656185575305_name', 730, '2', '133017945', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_2853332656185575305_image', 730, '2', '133017945', 1 );
+	
+			var rgAppItems = g_rgAssets[730];
+			var rgContextItems = rgAppItems['2'];
+			var rgItem = rgContextItems['134388057'];
+			BuildHover( 'largeiteminfo', rgItem, null );
+
+			g_oSearchResults = new CSearchResults( {"query":"","total_count":63,"pagesize":10}, 'http://steamcommunity.com/market/listings/730/FAMAS%20%7C%20Afterimage%20%28Factory%20New%29/' );
+						g_oSearchResults.SetResponseHandler( function( response ) {
+				g_rgAssets = response.assets;
+				g_rgCurrency = response.currency;
+				g_rgListingInfo = response.listinginfo;
+				eval( response.hovers );
+				MergeWithAppDataArray( response.app_data );
+				
+								InstallMarketActionMenuButtons();
+							});
+
+			MarketCheckHash();
+						} );
+
+			$J(document).ready(function(){
+			var line1=[["Thu, 19 Dec 2013 01:00:00 +0000",5.36216211319,"2 sold"],["Fri, 20 Dec 2013 01:00:00 +0000",5.35340023041,"25 sold"],["Sat, 21 Dec 2013 01:00:00 +0000",4.27707767487,"19 sold"],["Sun, 22 Dec 2013 01:00:00 +0000",4.09708595276,"18 sold"],["Mon, 23 Dec 2013 01:00:00 +0000",3.55333566666,"26 sold"],["Tue, 24 Dec 2013 01:00:00 +0000",3.41845989227,"23 sold"],["Wed, 25 Dec 2013 01:00:00 +0000",3.73272442818,"25 sold"],["Thu, 26 Dec 2013 01:00:00 +0000",3.61937379837,"20 sold"],["Fri, 27 Dec 2013 01:00:00 +0000",3.46796512604,"32 sold"],["Sat, 28 Dec 2013 01:00:00 +0000",3.27568507195,"25 sold"],["Sun, 29 Dec 2013 01:00:00 +0000",3.00890111923,"28 sold"],["Mon, 30 Dec 2013 01:00:00 +0000",2.89919710159,"28 sold"],["Tue, 31 Dec 2013 01:00:00 +0000",2.78273296356,"32 sold"],["Wed, 01 Jan 2014 01:00:00 +0000",2.8865737915,"30 sold"],["Thu, 02 Jan 2014 01:00:00 +0000",2.94872546196,"39 sold"],["Fri, 03 Jan 2014 01:00:00 +0000",2.40878725052,"26 sold"],["Sat, 04 Jan 2014 01:00:00 +0000",2.47729444504,"44 sold"],["Sun, 05 Jan 2014 01:00:00 +0000",2.56768703461,"38 sold"],["Mon, 06 Jan 2014 01:00:00 +0000",2.61366200447,"30 sold"],["Tue, 07 Jan 2014 01:00:00 +0000",2.50597476959,"32 sold"],["Wed, 08 Jan 2014 01:00:00 +0000",2.58414649963,"32 sold"],["Thu, 09 Jan 2014 01:00:00 +0000",2.56655693054,"40 sold"],["Fri, 10 Jan 2014 01:00:00 +0000",2.66221451759,"39 sold"],["Sat, 11 Jan 2014 01:00:00 +0000",2.85867524147,"42 sold"],["Sun, 12 Jan 2014 01:00:00 +0000",2.5460524559,"35 sold"],["Mon, 13 Jan 2014 01:00:00 +0000",2.29572081566,"49 sold"],["Tue, 14 Jan 2014 01:00:00 +0000",2.23275351524,"44 sold"],["Wed, 15 Jan 2014 01:00:00 +0000",2.28056240082,"46 sold"],["Thu, 16 Jan 2014 01:00:00 +0000",2.06781220436,"35 sold"],["Fri, 17 Jan 2014 01:00:00 +0000",2.16354084015,"41 sold"],["Sat, 18 Jan 2014 01:00:00 +0000",2.13151621819,"53 sold"],["Sun, 19 Jan 2014 01:00:00 +0000",2.03528285027,"60 sold"],["Mon, 20 Jan 2014 01:00:00 +0000",2.16987776756,"57 sold"],["Tue, 21 Jan 2014 01:00:00 +0000",2.22234749794,"12 sold"],["Tue, 21 Jan 2014 13:00:00 +0000",2.36999988556,"1 sold"],["Tue, 21 Jan 2014 14:00:00 +0000",1.95958638191,"2 sold"],["Tue, 21 Jan 2014 15:00:00 +0000",2.02999997139,"1 sold"],["Tue, 21 Jan 2014 16:00:00 +0000",2.00138306618,"5 sold"],["Tue, 21 Jan 2014 17:00:00 +0000",2.24439740181,"3 sold"],["Tue, 21 Jan 2014 18:00:00 +0000",2.28495883942,"3 sold"],["Tue, 21 Jan 2014 19:00:00 +0000",2.33555006981,"1 sold"],["Tue, 21 Jan 2014 20:00:00 +0000",2.28495883942,"5 sold"],["Tue, 21 Jan 2014 21:00:00 +0000",2.2974793911,"2 sold"],["Tue, 21 Jan 2014 22:00:00 +0000",2.30877375603,"1 sold"],["Tue, 21 Jan 2014 23:00:00 +0000",2.3119995594,"2 sold"],["Wed, 22 Jan 2014 01:00:00 +0000",1.58500003815,"2 sold"],["Wed, 22 Jan 2014 02:00:00 +0000",1.87000000477,"4 sold"],["Wed, 22 Jan 2014 03:00:00 +0000",1.89999997616,"1 sold"],["Wed, 22 Jan 2014 04:00:00 +0000",0.949999988079,"2 sold"],["Wed, 22 Jan 2014 05:00:00 +0000",1.41926407814,"1 sold"],["Wed, 22 Jan 2014 06:00:00 +0000",1.72000002861,"1 sold"],["Wed, 22 Jan 2014 08:00:00 +0000",1.90999996662,"3 sold"],["Wed, 22 Jan 2014 09:00:00 +0000",1.97898042202,"2 sold"],["Wed, 22 Jan 2014 11:00:00 +0000",1.99000000954,"5 sold"],["Wed, 22 Jan 2014 12:00:00 +0000",2.13000011444,"2 sold"],["Wed, 22 Jan 2014 13:00:00 +0000",2.04945349693,"4 sold"],["Wed, 22 Jan 2014 14:00:00 +0000",2.25999999046,"3 sold"],["Wed, 22 Jan 2014 15:00:00 +0000",2.26999998093,"3 sold"],["Wed, 22 Jan 2014 16:00:00 +0000",1.97606647015,"5 sold"],["Wed, 22 Jan 2014 17:00:00 +0000",2.13571023941,"2 sold"],["Wed, 22 Jan 2014 18:00:00 +0000",2.0990293026,"2 sold"],["Wed, 22 Jan 2014 19:00:00 +0000",1.89636170864,"1 sold"],["Wed, 22 Jan 2014 20:00:00 +0000",1.90990710258,"3 sold"],["Wed, 22 Jan 2014 22:00:00 +0000",2.00999999046,"3 sold"],["Wed, 22 Jan 2014 23:00:00 +0000",2.29870510101,"5 sold"],["Thu, 23 Jan 2014 00:00:00 +0000",2.32981586456,"1 sold"],["Thu, 23 Jan 2014 02:00:00 +0000",1.99000000954,"2 sold"],["Thu, 23 Jan 2014 04:00:00 +0000",2.03181600571,"1 sold"],["Thu, 23 Jan 2014 05:00:00 +0000",2.03999996185,"1 sold"],["Thu, 23 Jan 2014 07:00:00 +0000",2.03999996185,"1 sold"],["Thu, 23 Jan 2014 08:00:00 +0000",2.29991531372,"1 sold"],["Thu, 23 Jan 2014 09:00:00 +0000",2.25,"1 sold"],["Thu, 23 Jan 2014 12:00:00 +0000",2.25999999046,"1 sold"],["Thu, 23 Jan 2014 13:00:00 +0000",2.16146039963,"2 sold"],["Thu, 23 Jan 2014 14:00:00 +0000",2.27244830132,"2 sold"],["Thu, 23 Jan 2014 15:00:00 +0000",2.22042441368,"4 sold"],["Thu, 23 Jan 2014 16:00:00 +0000",1.91076731682,"3 sold"],["Thu, 23 Jan 2014 17:00:00 +0000",2.27688479424,"2 sold"],["Thu, 23 Jan 2014 18:00:00 +0000",2.10600805283,"1 sold"],["Thu, 23 Jan 2014 19:00:00 +0000",2.18000006676,"3 sold"],["Thu, 23 Jan 2014 20:00:00 +0000",2.20420670509,"2 sold"],["Thu, 23 Jan 2014 21:00:00 +0000",2.04042673111,"2 sold"],["Thu, 23 Jan 2014 23:00:00 +0000",1.76680111885,"6 sold"],["Fri, 24 Jan 2014 00:00:00 +0000",1.50999999046,"9 sold"],["Fri, 24 Jan 2014 01:00:00 +0000",1.46000003815,"13 sold"],["Fri, 24 Jan 2014 02:00:00 +0000",1.38416934013,"5 sold"],["Fri, 24 Jan 2014 03:00:00 +0000",1.29999995232,"5 sold"],["Fri, 24 Jan 2014 04:00:00 +0000",1.00631773472,"1 sold"],["Fri, 24 Jan 2014 05:00:00 +0000",1.32000005245,"6 sold"],["Fri, 24 Jan 2014 06:00:00 +0000",2.07999992371,"2 sold"],["Fri, 24 Jan 2014 07:00:00 +0000",1.67999994755,"3 sold"],["Fri, 24 Jan 2014 09:00:00 +0000",1.30656468868,"2 sold"],["Fri, 24 Jan 2014 10:00:00 +0000",1.41601502895,"6 sold"],["Fri, 24 Jan 2014 11:00:00 +0000",1.19500005245,"20 sold"],["Fri, 24 Jan 2014 12:00:00 +0000",1.43653702736,"13 sold"],["Fri, 24 Jan 2014 13:00:00 +0000",1.43653702736,"3 sold"],["Fri, 24 Jan 2014 14:00:00 +0000",1.30999994278,"17 sold"],["Fri, 24 Jan 2014 15:00:00 +0000",1.36813044548,"5 sold"],["Fri, 24 Jan 2014 16:00:00 +0000",1.09000003338,"11 sold"],["Fri, 24 Jan 2014 17:00:00 +0000",1.24499869347,"8 sold"],["Fri, 24 Jan 2014 18:00:00 +0000",1.36813044548,"19 sold"],["Fri, 24 Jan 2014 19:00:00 +0000",1.39296901226,"10 sold"],["Fri, 24 Jan 2014 20:00:00 +0000",1.50494349003,"5 sold"],["Fri, 24 Jan 2014 21:00:00 +0000",1.62807524204,"15 sold"],["Fri, 24 Jan 2014 22:00:00 +0000",1.40255630016,"14 sold"],["Fri, 24 Jan 2014 23:00:00 +0000",1.43675947189,"10 sold"],["Sat, 25 Jan 2014 00:00:00 +0000",1.38999998569,"29 sold"],["Sat, 25 Jan 2014 01:00:00 +0000",1.20000004768,"5 sold"],["Sat, 25 Jan 2014 02:00:00 +0000",1.49000000954,"21 sold"],["Sat, 25 Jan 2014 03:00:00 +0000",1.88738894463,"2 sold"],["Sat, 25 Jan 2014 04:00:00 +0000",1.78999996185,"2 sold"],["Sat, 25 Jan 2014 05:00:00 +0000",2.26999998093,"1 sold"],["Sat, 25 Jan 2014 06:00:00 +0000",2.27313709259,"5 sold"],["Sat, 25 Jan 2014 07:00:00 +0000",1.33000004292,"3 sold"],["Sat, 25 Jan 2014 08:00:00 +0000",1.70479786396,"8 sold"],["Sat, 25 Jan 2014 09:00:00 +0000",1.3818116188,"1 sold"],["Sat, 25 Jan 2014 10:00:00 +0000",1.77527856827,"4 sold"],["Sat, 25 Jan 2014 11:00:00 +0000",1.42969632149,"2 sold"],["Sat, 25 Jan 2014 12:00:00 +0000",1.55499994755,"10 sold"],["Sat, 25 Jan 2014 13:00:00 +0000",1.48229706287,"6 sold"],["Sat, 25 Jan 2014 14:00:00 +0000",1.84201908112,"2 sold"],["Sat, 25 Jan 2014 15:00:00 +0000",1.99747037888,"2 sold"],["Sat, 25 Jan 2014 16:00:00 +0000",1.66999995708,"3 sold"],["Sat, 25 Jan 2014 17:00:00 +0000",1.83500003815,"6 sold"],["Sat, 25 Jan 2014 18:00:00 +0000",2.06587696075,"3 sold"],["Sat, 25 Jan 2014 19:00:00 +0000",1.94894850254,"4 sold"],["Sat, 25 Jan 2014 20:00:00 +0000",2.19416570663,"3 sold"],["Sat, 25 Jan 2014 21:00:00 +0000",2.02919077873,"3 sold"],["Sun, 26 Jan 2014 03:00:00 +0000",2.05846643448,"1 sold"],["Sun, 26 Jan 2014 04:00:00 +0000",2.06999993324,"3 sold"],["Sun, 26 Jan 2014 06:00:00 +0000",1.88999998569,"1 sold"],["Sun, 26 Jan 2014 08:00:00 +0000",1.47000002861,"1 sold"],["Sun, 26 Jan 2014 09:00:00 +0000",1.87000000477,"3 sold"],["Sun, 26 Jan 2014 10:00:00 +0000",1.91831541061,"2 sold"],["Sun, 26 Jan 2014 11:00:00 +0000",1.95642650127,"3 sold"],["Sun, 26 Jan 2014 12:00:00 +0000",2.1355483532,"2 sold"],["Sun, 26 Jan 2014 13:00:00 +0000",1.8880200386,"4 sold"],["Sun, 26 Jan 2014 14:00:00 +0000",1.99747037888,"5 sold"],["Sun, 26 Jan 2014 15:00:00 +0000",1.83329486847,"4 sold"],["Sun, 26 Jan 2014 16:00:00 +0000",1.88044810295,"4 sold"],["Sun, 26 Jan 2014 17:00:00 +0000",1.71436548233,"5 sold"],["Sun, 26 Jan 2014 18:00:00 +0000",2.12995648384,"4 sold"],["Sun, 26 Jan 2014 19:00:00 +0000",1.62807524204,"1 sold"],["Sun, 26 Jan 2014 20:00:00 +0000",1.7652310133,"9 sold"],["Sun, 26 Jan 2014 21:00:00 +0000",1.94000005722,"4 sold"],["Sun, 26 Jan 2014 22:00:00 +0000",2.21000003815,"3 sold"],["Sun, 26 Jan 2014 23:00:00 +0000",2.2348716259,"1 sold"],["Mon, 27 Jan 2014 00:00:00 +0000",2.03061056137,"4 sold"],["Mon, 27 Jan 2014 01:00:00 +0000",1.77999997139,"1 sold"],["Mon, 27 Jan 2014 02:00:00 +0000",2.00109791756,"2 sold"],["Mon, 27 Jan 2014 03:00:00 +0000",1.95460271835,"1 sold"],["Mon, 27 Jan 2014 04:00:00 +0000",1.90999996662,"1 sold"],["Mon, 27 Jan 2014 05:00:00 +0000",2.04999995232,"2 sold"],["Mon, 27 Jan 2014 06:00:00 +0000",2.09999990463,"3 sold"],["Mon, 27 Jan 2014 07:00:00 +0000",1.61000001431,"1 sold"],["Mon, 27 Jan 2014 08:00:00 +0000",2.1616461277,"1 sold"],["Mon, 27 Jan 2014 09:00:00 +0000",1.75495922565,"4 sold"],["Mon, 27 Jan 2014 10:00:00 +0000",2.11999988556,"1 sold"],["Mon, 27 Jan 2014 11:00:00 +0000",1.55999994278,"3 sold"],["Mon, 27 Jan 2014 12:00:00 +0000",2.04689383507,"3 sold"],["Mon, 27 Jan 2014 13:00:00 +0000",1.81500005722,"2 sold"],["Mon, 27 Jan 2014 14:00:00 +0000",2.09323954582,"3 sold"],["Mon, 27 Jan 2014 15:00:00 +0000",2.01799249649,"2 sold"],["Mon, 27 Jan 2014 16:00:00 +0000",2.17766809464,"5 sold"],["Mon, 27 Jan 2014 17:00:00 +0000",2.25187659264,"4 sold"],["Mon, 27 Jan 2014 18:00:00 +0000",1.91538274288,"3 sold"],["Mon, 27 Jan 2014 19:00:00 +0000",1.95642650127,"3 sold"],["Mon, 27 Jan 2014 20:00:00 +0000",1.95084166527,"3 sold"],["Mon, 27 Jan 2014 21:00:00 +0000",1.93321323395,"4 sold"],["Mon, 27 Jan 2014 22:00:00 +0000",1.97010791302,"3 sold"],["Mon, 27 Jan 2014 23:00:00 +0000",1.89999997616,"3 sold"],["Tue, 28 Jan 2014 00:00:00 +0000",2.01425719261,"2 sold"],["Tue, 28 Jan 2014 02:00:00 +0000",1.89999997616,"2 sold"],["Tue, 28 Jan 2014 03:00:00 +0000",2.16499996185,"2 sold"],["Tue, 28 Jan 2014 04:00:00 +0000",2.01999998093,"3 sold"],["Tue, 28 Jan 2014 05:00:00 +0000",1.94192218781,"2 sold"],["Tue, 28 Jan 2014 06:00:00 +0000",1.88999998569,"1 sold"],["Tue, 28 Jan 2014 07:00:00 +0000",2.16000008583,"1 sold"],["Tue, 28 Jan 2014 08:00:00 +0000",2.16603302956,"1 sold"],["Tue, 28 Jan 2014 11:00:00 +0000",1.95494508743,"1 sold"],["Tue, 28 Jan 2014 12:00:00 +0000",2.04057598114,"2 sold"],["Tue, 28 Jan 2014 13:00:00 +0000",1.99000000954,"3 sold"],["Tue, 28 Jan 2014 14:00:00 +0000",2.12929654121,"3 sold"],["Tue, 28 Jan 2014 16:00:00 +0000",1.73346590996,"4 sold"],["Tue, 28 Jan 2014 17:00:00 +0000",1.82901120186,"3 sold"],["Tue, 28 Jan 2014 18:00:00 +0000",1.91090726852,"5 sold"],["Tue, 28 Jan 2014 19:00:00 +0000",1.99824678898,"2 sold"],["Tue, 28 Jan 2014 20:00:00 +0000",2.03375124931,"6 sold"],["Tue, 28 Jan 2014 21:00:00 +0000",2.15272521973,"3 sold"],["Tue, 28 Jan 2014 22:00:00 +0000",1.96000003815,"3 sold"],["Tue, 28 Jan 2014 23:00:00 +0000",2.03691291809,"1 sold"],["Wed, 29 Jan 2014 02:00:00 +0000",2.04740071297,"1 sold"],["Wed, 29 Jan 2014 03:00:00 +0000",1.85552489758,"2 sold"],["Wed, 29 Jan 2014 04:00:00 +0000",1.89999997616,"3 sold"],["Wed, 29 Jan 2014 07:00:00 +0000",1.63001942635,"2 sold"],["Wed, 29 Jan 2014 08:00:00 +0000",1.81500005722,"2 sold"],["Wed, 29 Jan 2014 09:00:00 +0000",2.03808045387,"2 sold"],["Wed, 29 Jan 2014 10:00:00 +0000",1.93664753437,"2 sold"],["Wed, 29 Jan 2014 11:00:00 +0000",2.0032787323,"2 sold"],["Wed, 29 Jan 2014 12:00:00 +0000",2.03553748131,"1 sold"],["Wed, 29 Jan 2014 13:00:00 +0000",2.03999996185,"3 sold"],["Wed, 29 Jan 2014 14:00:00 +0000",1.99500000477,"2 sold"],["Wed, 29 Jan 2014 15:00:00 +0000",2.06967329979,"3 sold"],["Wed, 29 Jan 2014 16:00:00 +0000",1.64946866035,"3 sold"],["Wed, 29 Jan 2014 17:00:00 +0000",2.00044608116,"2 sold"],["Wed, 29 Jan 2014 18:00:00 +0000",1.7636153698,"6 sold"],["Wed, 29 Jan 2014 19:00:00 +0000",1.82232487202,"5 sold"],["Wed, 29 Jan 2014 20:00:00 +0000",2.03999996185,"5 sold"],["Wed, 29 Jan 2014 21:00:00 +0000",1.81544601917,"2 sold"],["Wed, 29 Jan 2014 22:00:00 +0000",1.91637480259,"3 sold"],["Wed, 29 Jan 2014 23:00:00 +0000",1.7806634903,"2 sold"],["Thu, 30 Jan 2014 00:00:00 +0000",1.99455332756,"1 sold"],["Thu, 30 Jan 2014 01:00:00 +0000",1.97910737991,"2 sold"],["Thu, 30 Jan 2014 06:00:00 +0000",1.56107807159,"2 sold"],["Thu, 30 Jan 2014 07:00:00 +0000",1.73000001907,"2 sold"],["Thu, 30 Jan 2014 09:00:00 +0000",1.94344651699,"2 sold"],["Thu, 30 Jan 2014 10:00:00 +0000",2.02054548264,"2 sold"],["Thu, 30 Jan 2014 11:00:00 +0000",1.46000003815,"1 sold"],["Thu, 30 Jan 2014 12:00:00 +0000",1.49000000954,"1 sold"],["Thu, 30 Jan 2014 13:00:00 +0000",1.75432491302,"4 sold"],["Thu, 30 Jan 2014 14:00:00 +0000",1.97958850861,"3 sold"],["Thu, 30 Jan 2014 15:00:00 +0000",1.78344655037,"2 sold"],["Thu, 30 Jan 2014 16:00:00 +0000",1.66999995708,"3 sold"],["Thu, 30 Jan 2014 17:00:00 +0000",1.86354351044,"6 sold"],["Thu, 30 Jan 2014 18:00:00 +0000",2.00689315796,"6 sold"],["Thu, 30 Jan 2014 20:00:00 +0000",1.75344645977,"6 sold"],["Thu, 30 Jan 2014 21:00:00 +0000",2.03018426895,"4 sold"],["Thu, 30 Jan 2014 22:00:00 +0000",1.97662031651,"2 sold"],["Thu, 30 Jan 2014 23:00:00 +0000",1.95228374004,"3 sold"],["Fri, 31 Jan 2014 00:00:00 +0000",1.95228374004,"1 sold"],["Fri, 31 Jan 2014 01:00:00 +0000",1.98979413509,"4 sold"],["Fri, 31 Jan 2014 03:00:00 +0000",1.90999996662,"1 sold"],["Fri, 31 Jan 2014 04:00:00 +0000",2,"1 sold"],["Fri, 31 Jan 2014 05:00:00 +0000",2.03419780731,"1 sold"],["Fri, 31 Jan 2014 07:00:00 +0000",2,"4 sold"],["Fri, 31 Jan 2014 09:00:00 +0000",1.57503354549,"2 sold"],["Fri, 31 Jan 2014 10:00:00 +0000",1.99324083328,"1 sold"],["Fri, 31 Jan 2014 11:00:00 +0000",1.88383722305,"4 sold"],["Fri, 31 Jan 2014 12:00:00 +0000",1.95888996124,"5 sold"],["Fri, 31 Jan 2014 13:00:00 +0000",2.02919197083,"6 sold"],["Fri, 31 Jan 2014 14:00:00 +0000",2.03419780731,"3 sold"],["Fri, 31 Jan 2014 15:00:00 +0000",2.03419780731,"3 sold"],["Fri, 31 Jan 2014 16:00:00 +0000",2.01075124741,"2 sold"],["Fri, 31 Jan 2014 17:00:00 +0000",1.91162872314,"3 sold"],["Fri, 31 Jan 2014 18:00:00 +0000",1.55210590363,"2 sold"],["Fri, 31 Jan 2014 19:00:00 +0000",1.79564905167,"3 sold"],["Fri, 31 Jan 2014 20:00:00 +0000",1.80295979977,"4 sold"],["Fri, 31 Jan 2014 21:00:00 +0000",1.80999994278,"3 sold"],["Fri, 31 Jan 2014 22:00:00 +0000",1.80999994278,"1 sold"],["Fri, 31 Jan 2014 23:00:00 +0000",1.81576049328,"3 sold"],["Sat, 01 Feb 2014 00:00:00 +0000",1.84000003338,"5 sold"],["Sat, 01 Feb 2014 01:00:00 +0000",1.99662029743,"4 sold"],["Sat, 01 Feb 2014 02:00:00 +0000",2,"1 sold"],["Sat, 01 Feb 2014 03:00:00 +0000",1.95000004768,"1 sold"],["Sat, 01 Feb 2014 04:00:00 +0000",2,"1 sold"],["Sat, 01 Feb 2014 05:00:00 +0000",2.03999996185,"1 sold"],["Sat, 01 Feb 2014 06:00:00 +0000",1.875,"2 sold"],["Sat, 01 Feb 2014 07:00:00 +0000",2.03999996185,"1 sold"],["Sat, 01 Feb 2014 08:00:00 +0000",2.08999991417,"1 sold"],["Sat, 01 Feb 2014 09:00:00 +0000",1.98701107502,"2 sold"],["Sat, 01 Feb 2014 10:00:00 +0000",2.08880710602,"1 sold"],["Sat, 01 Feb 2014 12:00:00 +0000",1.99114191532,"2 sold"],["Sat, 01 Feb 2014 13:00:00 +0000",2.07515478134,"1 sold"],["Sat, 01 Feb 2014 14:00:00 +0000",2.11622977257,"2 sold"],["Sat, 01 Feb 2014 15:00:00 +0000",2.03999996185,"3 sold"],["Sat, 01 Feb 2014 16:00:00 +0000",1.95228374004,"3 sold"],["Sat, 01 Feb 2014 17:00:00 +0000",1.88402211666,"3 sold"],["Sat, 01 Feb 2014 18:00:00 +0000",1.91132676601,"4 sold"],["Sat, 01 Feb 2014 19:00:00 +0000",1.91815292835,"2 sold"],["Sat, 01 Feb 2014 20:00:00 +0000",1.91008877754,"2 sold"],["Sat, 01 Feb 2014 21:00:00 +0000",2.01254653931,"3 sold"],["Sat, 01 Feb 2014 22:00:00 +0000",1.97958850861,"3 sold"],["Sat, 01 Feb 2014 23:00:00 +0000",1.97000002861,"3 sold"],["Sun, 02 Feb 2014 00:00:00 +0000",1.98479413986,"2 sold"],["Sun, 02 Feb 2014 01:00:00 +0000",2.00062274933,"1 sold"],["Sun, 02 Feb 2014 02:00:00 +0000",1.67516946793,"2 sold"],["Sun, 02 Feb 2014 03:00:00 +0000",1.93662035465,"6 sold"],["Sun, 02 Feb 2014 04:00:00 +0000",2.01999998093,"5 sold"],["Sun, 02 Feb 2014 05:00:00 +0000",2.07515478134,"1 sold"],["Sun, 02 Feb 2014 06:00:00 +0000",2.02999997139,"1 sold"],["Sun, 02 Feb 2014 08:00:00 +0000",1.99324083328,"1 sold"],["Sun, 02 Feb 2014 09:00:00 +0000",1.9010540247,"2 sold"],["Sun, 02 Feb 2014 10:00:00 +0000",1.55999994278,"1 sold"],["Sun, 02 Feb 2014 11:00:00 +0000",1.97958850861,"5 sold"],["Sun, 02 Feb 2014 12:00:00 +0000",2.04093623161,"3 sold"],["Sun, 02 Feb 2014 13:00:00 +0000",1.87999999523,"3 sold"],["Sun, 02 Feb 2014 14:00:00 +0000",1.96593618393,"3 sold"],["Sun, 02 Feb 2014 15:00:00 +0000",1.88402211666,"1 sold"],["Sun, 02 Feb 2014 16:00:00 +0000",1.77999997139,"3 sold"],["Sun, 02 Feb 2014 17:00:00 +0000",1.88402211666,"3 sold"],["Sun, 02 Feb 2014 18:00:00 +0000",1.92497909069,"4 sold"],["Sun, 02 Feb 2014 19:00:00 +0000",2.00999999046,"6 sold"],["Sun, 02 Feb 2014 20:00:00 +0000",2.11611175537,"3 sold"],["Sun, 02 Feb 2014 21:00:00 +0000",1.57172167301,"3 sold"],["Sun, 02 Feb 2014 22:00:00 +0000",1.99000000954,"5 sold"],["Sun, 02 Feb 2014 23:00:00 +0000",1.74500000477,"2 sold"],["Mon, 03 Feb 2014 00:00:00 +0000",1.91915476322,"3 sold"],["Mon, 03 Feb 2014 01:00:00 +0000",1.69000005722,"1 sold"],["Mon, 03 Feb 2014 02:00:00 +0000",2.02500009537,"2 sold"],["Mon, 03 Feb 2014 03:00:00 +0000",2.09999990463,"1 sold"],["Mon, 03 Feb 2014 06:00:00 +0000",1.64999997616,"3 sold"],["Mon, 03 Feb 2014 08:00:00 +0000",1.97903370857,"2 sold"],["Mon, 03 Feb 2014 11:00:00 +0000",1.48000001907,"4 sold"],["Mon, 03 Feb 2014 12:00:00 +0000",1.86728620529,"4 sold"],["Mon, 03 Feb 2014 13:00:00 +0000",1.97276234627,"4 sold"],["Mon, 03 Feb 2014 14:00:00 +0000",2.03999996185,"1 sold"],["Mon, 03 Feb 2014 15:00:00 +0000",2.07515478134,"5 sold"],["Mon, 03 Feb 2014 16:00:00 +0000",1.89999997616,"1 sold"],["Mon, 03 Feb 2014 17:00:00 +0000",1.55999994278,"1 sold"],["Mon, 03 Feb 2014 18:00:00 +0000",1.72019410133,"1 sold"],["Mon, 03 Feb 2014 19:00:00 +0000",1.88402211666,"1 sold"],["Mon, 03 Feb 2014 20:00:00 +0000",1.80893433094,"6 sold"],["Mon, 03 Feb 2014 21:00:00 +0000",1.79509699345,"4 sold"],["Mon, 03 Feb 2014 22:00:00 +0000",1.72040784359,"2 sold"],["Mon, 03 Feb 2014 23:00:00 +0000",1.73384642601,"3 sold"],["Tue, 04 Feb 2014 00:00:00 +0000",1.77999997139,"11 sold"],["Tue, 04 Feb 2014 01:00:00 +0000",2.01842141151,"11 sold"],["Tue, 04 Feb 2014 02:00:00 +0000",1.24000000954,"3 sold"],["Tue, 04 Feb 2014 03:00:00 +0000",1.93863141537,"1 sold"],["Tue, 04 Feb 2014 04:00:00 +0000",1.92999994755,"5 sold"],["Tue, 04 Feb 2014 05:00:00 +0000",1.62999999523,"1 sold"],["Tue, 04 Feb 2014 06:00:00 +0000",1,"1 sold"],["Tue, 04 Feb 2014 08:00:00 +0000",2.1354739666,"1 sold"],["Tue, 04 Feb 2014 10:00:00 +0000",1.71141207218,"2 sold"],["Tue, 04 Feb 2014 11:00:00 +0000",1.88402211666,"1 sold"],["Tue, 04 Feb 2014 12:00:00 +0000",1.75561964512,"3 sold"],["Tue, 04 Feb 2014 13:00:00 +0000",1.31731379032,"2 sold"],["Tue, 04 Feb 2014 14:00:00 +0000",1.79528200626,"8 sold"],["Tue, 04 Feb 2014 15:00:00 +0000",1.91066348553,"4 sold"],["Tue, 04 Feb 2014 16:00:00 +0000",1.95224380493,"3 sold"],["Tue, 04 Feb 2014 17:00:00 +0000",2.00006699562,"8 sold"],["Tue, 04 Feb 2014 18:00:00 +0000",1.90999996662,"1 sold"],["Tue, 04 Feb 2014 19:00:00 +0000",2.04785013199,"1 sold"],["Tue, 04 Feb 2014 20:00:00 +0000",1.81576049328,"5 sold"],["Tue, 04 Feb 2014 21:00:00 +0000",2.04785013199,"7 sold"],["Tue, 04 Feb 2014 22:00:00 +0000",1.90261042118,"3 sold"],["Tue, 04 Feb 2014 23:00:00 +0000",1.93863141537,"1 sold"],["Wed, 05 Feb 2014 00:00:00 +0000",2.08999991417,"5 sold"],["Wed, 05 Feb 2014 01:00:00 +0000",2.12976408005,"1 sold"],["Wed, 05 Feb 2014 02:00:00 +0000",1.72000002861,"3 sold"],["Wed, 05 Feb 2014 04:00:00 +0000",1.84114193916,"2 sold"],["Wed, 05 Feb 2014 06:00:00 +0000",2.06999993324,"3 sold"],["Wed, 05 Feb 2014 07:00:00 +0000",2.16170811653,"2 sold"],["Wed, 05 Feb 2014 08:00:00 +0000",2.18000006676,"1 sold"],["Wed, 05 Feb 2014 09:00:00 +0000",2.24000000954,"1 sold"],["Wed, 05 Feb 2014 11:00:00 +0000",1.7104319334,"2 sold"],["Wed, 05 Feb 2014 12:00:00 +0000",1.95228374004,"1 sold"],["Wed, 05 Feb 2014 13:00:00 +0000",1.8915501833,"2 sold"],["Wed, 05 Feb 2014 14:00:00 +0000",2.22115850449,"2 sold"],["Wed, 05 Feb 2014 15:00:00 +0000",2.23898291588,"1 sold"],["Wed, 05 Feb 2014 16:00:00 +0000",2.24580907822,"4 sold"],["Wed, 05 Feb 2014 17:00:00 +0000",2.06497001648,"2 sold"],["Wed, 05 Feb 2014 18:00:00 +0000",2.12583899498,"2 sold"],["Wed, 05 Feb 2014 19:00:00 +0000",2.27628684044,"1 sold"],["Wed, 05 Feb 2014 20:00:00 +0000",2.25263524055,"5 sold"],["Wed, 05 Feb 2014 21:00:00 +0000",2.23366069794,"2 sold"],["Wed, 05 Feb 2014 22:00:00 +0000",2.03999996185,"3 sold"],["Wed, 05 Feb 2014 23:00:00 +0000",1.79999995232,"3 sold"],["Thu, 06 Feb 2014 00:00:00 +0000",2.06622982025,"2 sold"],["Thu, 06 Feb 2014 01:00:00 +0000",2.13384389877,"4 sold"],["Thu, 06 Feb 2014 02:00:00 +0000",2.125,"2 sold"],["Thu, 06 Feb 2014 04:00:00 +0000",1.55999994278,"1 sold"],["Thu, 06 Feb 2014 05:00:00 +0000",1.95228374004,"1 sold"],["Thu, 06 Feb 2014 06:00:00 +0000",2.18000006676,"7 sold"],["Thu, 06 Feb 2014 07:00:00 +0000",1.86000001431,"4 sold"],["Thu, 06 Feb 2014 08:00:00 +0000",2.14341640472,"3 sold"],["Thu, 06 Feb 2014 09:00:00 +0000",2.22000002861,"1 sold"],["Thu, 06 Feb 2014 10:00:00 +0000",2.04785013199,"1 sold"],["Thu, 06 Feb 2014 11:00:00 +0000",2.07614207268,"2 sold"],["Thu, 06 Feb 2014 12:00:00 +0000",1.67483353615,"2 sold"],["Thu, 06 Feb 2014 13:00:00 +0000",1.7806634903,"2 sold"],["Thu, 06 Feb 2014 14:00:00 +0000",2.00689315796,"3 sold"],["Thu, 06 Feb 2014 15:00:00 +0000",1.68439221382,"2 sold"],["Thu, 06 Feb 2014 16:00:00 +0000",1.74519681931,"6 sold"],["Thu, 06 Feb 2014 17:00:00 +0000",1.87613403797,"2 sold"],["Thu, 06 Feb 2014 18:00:00 +0000",1.76115107536,"4 sold"],["Thu, 06 Feb 2014 19:00:00 +0000",1.78679931164,"3 sold"],["Thu, 06 Feb 2014 20:00:00 +0000",1.77480351925,"3 sold"],["Thu, 06 Feb 2014 21:00:00 +0000",1.90383732319,"4 sold"],["Thu, 06 Feb 2014 22:00:00 +0000",1.92497909069,"2 sold"],["Thu, 06 Feb 2014 23:00:00 +0000",1.88110995293,"2 sold"],["Fri, 07 Feb 2014 00:00:00 +0000",1.53999996185,"2 sold"],["Fri, 07 Feb 2014 01:00:00 +0000",1.62731385231,"6 sold"],["Fri, 07 Feb 2014 02:00:00 +0000",1.85000002384,"1 sold"],["Fri, 07 Feb 2014 03:00:00 +0000",1.47245502472,"1 sold"],["Fri, 07 Feb 2014 04:00:00 +0000",1.89999997616,"3 sold"],["Fri, 07 Feb 2014 05:00:00 +0000",1.93163573742,"1 sold"],["Fri, 07 Feb 2014 06:00:00 +0000",2.00565028191,"2 sold"],["Fri, 07 Feb 2014 08:00:00 +0000",1.72495865822,"1 sold"],["Fri, 07 Feb 2014 09:00:00 +0000",1.79451358318,"2 sold"],["Fri, 07 Feb 2014 10:00:00 +0000",1.93176484108,"4 sold"],["Fri, 07 Feb 2014 11:00:00 +0000",1.57001841068,"3 sold"],["Fri, 07 Feb 2014 12:00:00 +0000",1.94696629047,"1 sold"],["Fri, 07 Feb 2014 13:00:00 +0000",2.00479412079,"6 sold"],["Fri, 07 Feb 2014 14:00:00 +0000",2.1099998951,"1 sold"],["Fri, 07 Feb 2014 15:00:00 +0000",1.86354351044,"4 sold"],["Fri, 07 Feb 2014 16:00:00 +0000",1.68279278278,"2 sold"],["Fri, 07 Feb 2014 17:00:00 +0000",1.82176756859,"7 sold"],["Fri, 07 Feb 2014 18:00:00 +0000",2.00575113297,"4 sold"],["Fri, 07 Feb 2014 19:00:00 +0000",1.72019410133,"7 sold"],["Fri, 07 Feb 2014 20:00:00 +0000",1.69288945198,"1 sold"],["Fri, 07 Feb 2014 21:00:00 +0000",1.74483346939,"4 sold"],["Fri, 07 Feb 2014 22:00:00 +0000",1.91132676601,"5 sold"],["Fri, 07 Feb 2014 23:00:00 +0000",1.77999997139,"3 sold"],["Sat, 08 Feb 2014 00:00:00 +0000",2.02999997139,"5 sold"],["Sat, 08 Feb 2014 03:00:00 +0000",1.6451061964,"4 sold"],["Sat, 08 Feb 2014 04:00:00 +0000",1.99000000954,"1 sold"],["Sat, 08 Feb 2014 05:00:00 +0000",2,"3 sold"],["Sat, 08 Feb 2014 06:00:00 +0000",2.01999998093,"1 sold"],["Sat, 08 Feb 2014 07:00:00 +0000",2.00344657898,"2 sold"],["Sat, 08 Feb 2014 09:00:00 +0000",2.03999996185,"1 sold"],["Sat, 08 Feb 2014 10:00:00 +0000",1.9561419487,"2 sold"],["Sat, 08 Feb 2014 11:00:00 +0000",1.91815292835,"2 sold"],["Sat, 08 Feb 2014 12:00:00 +0000",1.72019410133,"5 sold"],["Sat, 08 Feb 2014 13:00:00 +0000",1.96000003815,"3 sold"],["Sat, 08 Feb 2014 14:00:00 +0000",2.00685572624,"2 sold"],["Sat, 08 Feb 2014 15:00:00 +0000",2.03419780731,"3 sold"],["Sat, 08 Feb 2014 16:00:00 +0000",1.94541716576,"2 sold"],["Sat, 08 Feb 2014 17:00:00 +0000",1.88402211666,"3 sold"],["Sat, 08 Feb 2014 19:00:00 +0000",1.76847302914,"4 sold"],["Sat, 08 Feb 2014 20:00:00 +0000",1.77999997139,"3 sold"],["Sat, 08 Feb 2014 22:00:00 +0000",1.52906143665,"1 sold"],["Sat, 08 Feb 2014 23:00:00 +0000",1.78339970112,"4 sold"],["Sun, 09 Feb 2014 00:00:00 +0000",1.33431625366,"5 sold"],["Sun, 09 Feb 2014 01:00:00 +0000",1.86354351044,"4 sold"],["Sun, 09 Feb 2014 02:00:00 +0000",1.51999998093,"2 sold"],["Sun, 09 Feb 2014 04:00:00 +0000",1.72552549839,"2 sold"],["Sun, 09 Feb 2014 05:00:00 +0000",1.74000000954,"1 sold"],["Sun, 09 Feb 2014 06:00:00 +0000",1.77999997139,"1 sold"],["Sun, 09 Feb 2014 07:00:00 +0000",1.75959408283,"1 sold"],["Sun, 09 Feb 2014 08:00:00 +0000",1.76999998093,"1 sold"],["Sun, 09 Feb 2014 09:00:00 +0000",1.67479324341,"2 sold"],["Sun, 09 Feb 2014 10:00:00 +0000",1.78922796249,"4 sold"],["Sun, 09 Feb 2014 11:00:00 +0000",1.8021081686,"3 sold"],["Sun, 09 Feb 2014 13:00:00 +0000",1.15006709099,"5 sold"],["Sun, 09 Feb 2014 14:00:00 +0000",1.65597164631,"1 sold"],["Sun, 09 Feb 2014 15:00:00 +0000",1.47121667862,"4 sold"],["Sun, 09 Feb 2014 16:00:00 +0000",1.67961847782,"8 sold"],["Sun, 09 Feb 2014 17:00:00 +0000",1.54275035858,"2 sold"],["Sun, 09 Feb 2014 18:00:00 +0000",1.64999997616,"5 sold"],["Sun, 09 Feb 2014 19:00:00 +0000",1.69240176678,"6 sold"],["Sun, 09 Feb 2014 20:00:00 +0000",1.73000001907,"3 sold"],["Sun, 09 Feb 2014 22:00:00 +0000",1.7040771246,"3 sold"],["Sun, 09 Feb 2014 23:00:00 +0000",1.71009707451,"4 sold"],["Mon, 10 Feb 2014 00:00:00 +0000",1.76999998093,"3 sold"],["Mon, 10 Feb 2014 01:00:00 +0000",1.62999999523,"3 sold"],["Mon, 10 Feb 2014 02:00:00 +0000",1.5619764328,"3 sold"],["Mon, 10 Feb 2014 07:00:00 +0000",1.63999998569,"1 sold"],["Mon, 10 Feb 2014 08:00:00 +0000",1.61000001431,"1 sold"],["Mon, 10 Feb 2014 09:00:00 +0000",1.63468372822,"1 sold"],["Mon, 10 Feb 2014 10:00:00 +0000",1.67555069923,"3 sold"],["Mon, 10 Feb 2014 11:00:00 +0000",1.69045364857,"2 sold"],["Mon, 10 Feb 2014 12:00:00 +0000",1.55324029922,"2 sold"],["Mon, 10 Feb 2014 13:00:00 +0000",1.5665718317,"3 sold"],["Mon, 10 Feb 2014 14:00:00 +0000",1.68917310238,"4 sold"],["Mon, 10 Feb 2014 15:00:00 +0000",1.63820886612,"4 sold"],["Mon, 10 Feb 2014 16:00:00 +0000",1.68709933758,"3 sold"],["Mon, 10 Feb 2014 17:00:00 +0000",1.38425588608,"2 sold"],["Mon, 10 Feb 2014 18:00:00 +0000",1.55803120136,"4 sold"],["Mon, 10 Feb 2014 19:00:00 +0000",1.63468372822,"7 sold"],["Mon, 10 Feb 2014 20:00:00 +0000",1.46981084347,"4 sold"],["Mon, 10 Feb 2014 22:00:00 +0000",1.52570486069,"3 sold"],["Mon, 10 Feb 2014 23:00:00 +0000",1.60743892193,"3 sold"],["Tue, 11 Feb 2014 00:00:00 +0000",1.58000004292,"3 sold"],["Tue, 11 Feb 2014 01:00:00 +0000",1.57338297367,"4 sold"],["Tue, 11 Feb 2014 02:00:00 +0000",1.58822870255,"1 sold"],["Tue, 11 Feb 2014 03:00:00 +0000",1.60743892193,"1 sold"],["Tue, 11 Feb 2014 04:00:00 +0000",1.55328595638,"2 sold"],["Tue, 11 Feb 2014 05:00:00 +0000",1.62253129482,"2 sold"],["Tue, 11 Feb 2014 06:00:00 +0000",1.37828159332,"1 sold"],["Tue, 11 Feb 2014 07:00:00 +0000",1.56321716309,"1 sold"],["Tue, 11 Feb 2014 08:00:00 +0000",1.34000003338,"1 sold"],["Tue, 11 Feb 2014 09:00:00 +0000",1.299077034,"2 sold"],["Tue, 11 Feb 2014 10:00:00 +0000",1.47000002861,"1 sold"],["Tue, 11 Feb 2014 12:00:00 +0000",1.54999995232,"1 sold"],["Tue, 11 Feb 2014 13:00:00 +0000",1.56317102909,"4 sold"],["Tue, 11 Feb 2014 14:00:00 +0000",1.57500004768,"4 sold"],["Tue, 11 Feb 2014 15:00:00 +0000",1.65835618973,"4 sold"],["Tue, 11 Feb 2014 16:00:00 +0000",1.71489322186,"2 sold"],["Tue, 11 Feb 2014 17:00:00 +0000",1.60459887981,"10 sold"],["Tue, 11 Feb 2014 18:00:00 +0000",1.77064752579,"5 sold"],["Tue, 11 Feb 2014 19:00:00 +0000",1.81150865555,"1 sold"],["Tue, 11 Feb 2014 20:00:00 +0000",1.76212787628,"2 sold"],["Tue, 11 Feb 2014 21:00:00 +0000",1.7570271492,"5 sold"],["Tue, 11 Feb 2014 22:00:00 +0000",1.81831884384,"4 sold"],["Tue, 11 Feb 2014 23:00:00 +0000",1.52499997616,"2 sold"],["Wed, 12 Feb 2014 00:00:00 +0000",1.88999998569,"14 sold"],["Wed, 12 Feb 2014 01:00:00 +0000",1.49006927013,"4 sold"],["Wed, 12 Feb 2014 02:00:00 +0000",1.73000001907,"2 sold"],["Wed, 12 Feb 2014 03:00:00 +0000",1.5,"1 sold"],["Wed, 12 Feb 2014 04:00:00 +0000",1.5,"1 sold"],["Wed, 12 Feb 2014 05:00:00 +0000",1.52676403522,"1 sold"],["Wed, 12 Feb 2014 07:00:00 +0000",1.63444399834,"3 sold"],["Wed, 12 Feb 2014 08:00:00 +0000",1.96500003338,"10 sold"],["Wed, 12 Feb 2014 11:00:00 +0000",2.01931285858,"3 sold"],["Wed, 12 Feb 2014 12:00:00 +0000",2.05254340172,"3 sold"],["Wed, 12 Feb 2014 13:00:00 +0000",1.73054540157,"2 sold"],["Wed, 12 Feb 2014 14:00:00 +0000",1.93799817562,"5 sold"],["Wed, 12 Feb 2014 15:00:00 +0000",1.99879932404,"4 sold"],["Wed, 12 Feb 2014 16:00:00 +0000",1.56685972214,"5 sold"],["Wed, 12 Feb 2014 17:00:00 +0000",1.64907693863,"5 sold"],["Wed, 12 Feb 2014 18:00:00 +0000",1.55999994278,"1 sold"],["Wed, 12 Feb 2014 19:00:00 +0000",1.63814604282,"4 sold"],["Wed, 12 Feb 2014 20:00:00 +0000",1.99220776558,"5 sold"],["Wed, 12 Feb 2014 21:00:00 +0000",2.02129220963,"1 sold"],["Wed, 12 Feb 2014 22:00:00 +0000",1.97865533829,"2 sold"],["Wed, 12 Feb 2014 23:00:00 +0000",1.97000002861,"3 sold"],["Thu, 13 Feb 2014 00:00:00 +0000",1.99220776558,"1 sold"],["Thu, 13 Feb 2014 01:00:00 +0000",1.89999997616,"1 sold"],["Thu, 13 Feb 2014 02:00:00 +0000",1.75499999523,"2 sold"],["Thu, 13 Feb 2014 03:00:00 +0000",2.02999997139,"1 sold"],["Thu, 13 Feb 2014 06:00:00 +0000",1.96000003815,"2 sold"],["Thu, 13 Feb 2014 07:00:00 +0000",1.97414290905,"2 sold"],["Thu, 13 Feb 2014 08:00:00 +0000",2.01125741005,"1 sold"],["Thu, 13 Feb 2014 09:00:00 +0000",1.90418076515,"2 sold"],["Thu, 13 Feb 2014 10:00:00 +0000",2.00999999046,"2 sold"],["Thu, 13 Feb 2014 11:00:00 +0000",1.54999995232,"1 sold"],["Thu, 13 Feb 2014 12:00:00 +0000",1.54999995232,"1 sold"],["Thu, 13 Feb 2014 15:00:00 +0000",1.84441375732,"5 sold"],["Thu, 13 Feb 2014 16:00:00 +0000",1.98500001431,"6 sold"],["Thu, 13 Feb 2014 17:00:00 +0000",1.84000003338,"3 sold"],["Thu, 13 Feb 2014 18:00:00 +0000",1.77816510201,"3 sold"],["Thu, 13 Feb 2014 19:00:00 +0000",1.90589416027,"4 sold"],["Thu, 13 Feb 2014 20:00:00 +0000",1.7419462204,"4 sold"],["Thu, 13 Feb 2014 21:00:00 +0000",1.53018033504,"1 sold"],["Thu, 13 Feb 2014 22:00:00 +0000",1.89999997616,"3 sold"],["Thu, 13 Feb 2014 23:00:00 +0000",1.7305560112,"2 sold"],["Fri, 14 Feb 2014 00:00:00 +0000",1.53999996185,"2 sold"],["Fri, 14 Feb 2014 01:00:00 +0000",1.92999994755,"3 sold"],["Fri, 14 Feb 2014 02:00:00 +0000",1.76243972778,"5 sold"],["Fri, 14 Feb 2014 03:00:00 +0000",1.70500004292,"2 sold"],["Fri, 14 Feb 2014 04:00:00 +0000",1.85000002384,"2 sold"],["Fri, 14 Feb 2014 05:00:00 +0000",1.62581646442,"1 sold"],["Fri, 14 Feb 2014 07:00:00 +0000",1.63999998569,"1 sold"],["Fri, 14 Feb 2014 08:00:00 +0000",1.75037562847,"2 sold"],["Fri, 14 Feb 2014 09:00:00 +0000",1.99000000954,"1 sold"],["Fri, 14 Feb 2014 10:00:00 +0000",1.96895706654,"2 sold"],["Fri, 14 Feb 2014 11:00:00 +0000",1.96000003815,"1 sold"],["Fri, 14 Feb 2014 12:00:00 +0000",1.99500000477,"2 sold"],["Fri, 14 Feb 2014 13:00:00 +0000",1.91845858097,"2 sold"],["Fri, 14 Feb 2014 14:00:00 +0000",2.0373237133,"1 sold"],["Fri, 14 Feb 2014 15:00:00 +0000",1.89160096645,"3 sold"],["Fri, 14 Feb 2014 16:00:00 +0000",1.83222401142,"3 sold"],["Fri, 14 Feb 2014 17:00:00 +0000",1.46988117695,"2 sold"],["Fri, 14 Feb 2014 18:00:00 +0000",1.76385724545,"3 sold"],["Fri, 14 Feb 2014 19:00:00 +0000",1.99630367756,"3 sold"],["Fri, 14 Feb 2014 20:00:00 +0000",1.62712419033,"2 sold"],["Fri, 14 Feb 2014 21:00:00 +0000",1.64079761505,"5 sold"],["Fri, 14 Feb 2014 22:00:00 +0000",1.87783932686,"4 sold"],["Fri, 14 Feb 2014 23:00:00 +0000",1.72967410088,"4 sold"],["Sat, 15 Feb 2014 00:00:00 +0000",1.38284897804,"2 sold"],["Sat, 15 Feb 2014 01:00:00 +0000",1.83293712139,"4 sold"],["Sat, 15 Feb 2014 02:00:00 +0000",1.78345859051,"4 sold"],["Sat, 15 Feb 2014 03:00:00 +0000",1.4832855463,"2 sold"],["Sat, 15 Feb 2014 04:00:00 +0000",1.37663805485,"2 sold"],["Sat, 15 Feb 2014 05:00:00 +0000",1.63999998569,"2 sold"],["Sat, 15 Feb 2014 07:00:00 +0000",1.43354856968,"2 sold"],["Sat, 15 Feb 2014 08:00:00 +0000",1.70000004768,"1 sold"],["Sat, 15 Feb 2014 09:00:00 +0000",1.62607955933,"2 sold"],["Sat, 15 Feb 2014 10:00:00 +0000",1.67553174496,"4 sold"],["Sat, 15 Feb 2014 11:00:00 +0000",1.64621555805,"2 sold"],["Sat, 15 Feb 2014 12:00:00 +0000",1.55641877651,"2 sold"],["Sat, 15 Feb 2014 13:00:00 +0000",1.84560191631,"8 sold"],["Sat, 15 Feb 2014 14:00:00 +0000",1.9129486084,"4 sold"],["Sat, 15 Feb 2014 15:00:00 +0000",1.3997220993,"3 sold"],["Sat, 15 Feb 2014 16:00:00 +0000",1.77753067017,"9 sold"],["Sat, 15 Feb 2014 17:00:00 +0000",1.85189425945,"4 sold"],["Sat, 15 Feb 2014 18:00:00 +0000",1.77069401741,"2 sold"],["Sat, 15 Feb 2014 19:00:00 +0000",2.00999999046,"15 sold"],["Sat, 15 Feb 2014 20:00:00 +0000",1.88999998569,"3 sold"],["Sat, 15 Feb 2014 21:00:00 +0000",1.65106368065,"8 sold"],["Sat, 15 Feb 2014 22:00:00 +0000",1.69549071789,"3 sold"],["Sat, 15 Feb 2014 23:00:00 +0000",1.60500001907,"2 sold"],["Sun, 16 Feb 2014 00:00:00 +0000",1.54917562008,"2 sold"],["Sun, 16 Feb 2014 01:00:00 +0000",1.57243108749,"1 sold"],["Sun, 16 Feb 2014 02:00:00 +0000",1.79120397568,"1 sold"],["Sun, 16 Feb 2014 04:00:00 +0000",1.39999997616,"5 sold"],["Sun, 16 Feb 2014 05:00:00 +0000",1.65499997139,"4 sold"],["Sun, 16 Feb 2014 06:00:00 +0000",0.980000019073,"3 sold"],["Sun, 16 Feb 2014 07:00:00 +0000",1.67723536491,"2 sold"],["Sun, 16 Feb 2014 09:00:00 +0000",1.73000001907,"3 sold"],["Sun, 16 Feb 2014 11:00:00 +0000",1.79120397568,"3 sold"],["Sun, 16 Feb 2014 12:00:00 +0000",1.48355436325,"2 sold"],["Sun, 16 Feb 2014 13:00:00 +0000",1.61345088482,"2 sold"],["Sun, 16 Feb 2014 14:00:00 +0000",1.57926762104,"4 sold"],["Sun, 16 Feb 2014 15:00:00 +0000",1.58440065384,"4 sold"],["Sun, 16 Feb 2014 16:00:00 +0000",1.64999997616,"3 sold"],["Sun, 16 Feb 2014 17:00:00 +0000",1.50406432152,"3 sold"],["Sun, 16 Feb 2014 18:00:00 +0000",1.65999996662,"3 sold"],["Sun, 16 Feb 2014 19:00:00 +0000",1.49354875088,"3 sold"],["Sun, 16 Feb 2014 20:00:00 +0000",1.64079761505,"5 sold"],["Sun, 16 Feb 2014 21:00:00 +0000",1.64621555805,"4 sold"],["Sun, 16 Feb 2014 22:00:00 +0000",1.57243108749,"7 sold"],["Sun, 16 Feb 2014 23:00:00 +0000",1.495195508,"2 sold"],["Mon, 17 Feb 2014 00:00:00 +0000",1.73651075363,"2 sold"],["Mon, 17 Feb 2014 01:00:00 +0000",1.43569779396,"3 sold"],["Mon, 17 Feb 2014 02:00:00 +0000",1.5,"1 sold"],["Mon, 17 Feb 2014 03:00:00 +0000",1.14999997616,"1 sold"],["Mon, 17 Feb 2014 04:00:00 +0000",1.25999999046,"5 sold"],["Mon, 17 Feb 2014 05:00:00 +0000",1.42999994755,"1 sold"],["Mon, 17 Feb 2014 06:00:00 +0000",1.53999996185,"3 sold"],["Mon, 17 Feb 2014 07:00:00 +0000",1.55999994278,"1 sold"],["Mon, 17 Feb 2014 09:00:00 +0000",1.58680665493,"1 sold"],["Mon, 17 Feb 2014 10:00:00 +0000",1.63999998569,"1 sold"],["Mon, 17 Feb 2014 11:00:00 +0000",1.69058454037,"3 sold"],["Mon, 17 Feb 2014 12:00:00 +0000",1.58530533314,"4 sold"],["Mon, 17 Feb 2014 13:00:00 +0000",1.54317367077,"4 sold"],["Mon, 17 Feb 2014 14:00:00 +0000",1.63574659824,"2 sold"],["Mon, 17 Feb 2014 15:00:00 +0000",1.56559431553,"2 sold"],["Mon, 17 Feb 2014 16:00:00 +0000",1.27072811127,"4 sold"],["Mon, 17 Feb 2014 17:00:00 +0000",1.53037321568,"4 sold"],["Mon, 17 Feb 2014 18:00:00 +0000",1.32530713081,"2 sold"],["Mon, 17 Feb 2014 19:00:00 +0000",1.55993819237,"4 sold"],["Mon, 17 Feb 2014 20:00:00 +0000",1.5483828783,"8 sold"],["Mon, 17 Feb 2014 21:00:00 +0000",1.51773774624,"3 sold"],["Mon, 17 Feb 2014 22:00:00 +0000",1.52999997139,"7 sold"],["Mon, 17 Feb 2014 23:00:00 +0000",1.54499995708,"4 sold"],["Tue, 18 Feb 2014 00:00:00 +0000",1.62172544003,"4 sold"],["Tue, 18 Feb 2014 01:00:00 +0000",1.62712419033,"3 sold"],["Tue, 18 Feb 2014 02:00:00 +0000",1.64079761505,"2 sold"],["Tue, 18 Feb 2014 03:00:00 +0000",1.44000005722,"2 sold"],["Tue, 18 Feb 2014 04:00:00 +0000",1.62315893173,"2 sold"],["Tue, 18 Feb 2014 05:00:00 +0000",1.62712419033,"1 sold"],["Tue, 18 Feb 2014 08:00:00 +0000",1.28490114212,"2 sold"],["Tue, 18 Feb 2014 09:00:00 +0000",1.44000005722,"3 sold"],["Tue, 18 Feb 2014 10:00:00 +0000",1.44937121868,"1 sold"],["Tue, 18 Feb 2014 11:00:00 +0000",1.4767178297,"7 sold"],["Tue, 18 Feb 2014 12:00:00 +0000",1.61345088482,"1 sold"],["Tue, 18 Feb 2014 13:00:00 +0000",1.61345088482,"1 sold"],["Tue, 18 Feb 2014 14:00:00 +0000",1.39467787743,"4 sold"],["Tue, 18 Feb 2014 15:00:00 +0000",1.35365796089,"1 sold"],["Tue, 18 Feb 2014 16:00:00 +0000",1.43569779396,"5 sold"],["Tue, 18 Feb 2014 17:00:00 +0000",1.4767178297,"7 sold"],["Tue, 18 Feb 2014 18:00:00 +0000",1.56621551514,"4 sold"],["Tue, 18 Feb 2014 19:00:00 +0000",1.62331402302,"4 sold"],["Tue, 18 Feb 2014 20:00:00 +0000",1.3673312664,"10 sold"],["Tue, 18 Feb 2014 21:00:00 +0000",1.62712419033,"10 sold"],["Tue, 18 Feb 2014 22:00:00 +0000",1.43866562843,"6 sold"],["Tue, 18 Feb 2014 23:00:00 +0000",1.27518868446,"3 sold"],["Wed, 19 Feb 2014 00:00:00 +0000",1.33314800262,"2 sold"],["Wed, 19 Feb 2014 01:00:00 +0000",1.38550233841,"2 sold"],["Wed, 19 Feb 2014 04:00:00 +0000",1.42999994755,"4 sold"],["Wed, 19 Feb 2014 06:00:00 +0000",1.3673312664,"3 sold"],["Wed, 19 Feb 2014 07:00:00 +0000",1.58000004292,"1 sold"],["Wed, 19 Feb 2014 08:00:00 +0000",1.39124417305,"2 sold"],["Wed, 19 Feb 2014 09:00:00 +0000",1.27765703201,"1 sold"],["Wed, 19 Feb 2014 10:00:00 +0000",1.53999996185,"2 sold"],["Wed, 19 Feb 2014 11:00:00 +0000",1.27999997139,"1 sold"],["Wed, 19 Feb 2014 12:00:00 +0000",1.29394245148,"2 sold"],["Wed, 19 Feb 2014 13:00:00 +0000",1.30513370037,"1 sold"],["Wed, 19 Feb 2014 14:00:00 +0000",1.38999998569,"5 sold"],["Wed, 19 Feb 2014 15:00:00 +0000",1.41503953934,"2 sold"],["Wed, 19 Feb 2014 16:00:00 +0000",1.52999997139,"5 sold"],["Wed, 19 Feb 2014 17:00:00 +0000",1.27999997139,"5 sold"],["Wed, 19 Feb 2014 18:00:00 +0000",1.46434187889,"8 sold"],["Wed, 19 Feb 2014 19:00:00 +0000",1.41999995708,"5 sold"],["Wed, 19 Feb 2014 20:00:00 +0000",1.53868377209,"4 sold"],["Wed, 19 Feb 2014 21:00:00 +0000",1.28195941448,"2 sold"],["Wed, 19 Feb 2014 22:00:00 +0000",1.13675451279,"2 sold"],["Wed, 19 Feb 2014 23:00:00 +0000",1.49154138565,"4 sold"],["Thu, 20 Feb 2014 00:00:00 +0000",1.52494549751,"4 sold"],["Thu, 20 Feb 2014 01:00:00 +0000",1.5798984766,"1 sold"],["Thu, 20 Feb 2014 02:00:00 +0000",1.52999997139,"2 sold"],["Thu, 20 Feb 2014 03:00:00 +0000",1.40382862091,"2 sold"],["Thu, 20 Feb 2014 04:00:00 +0000",1.55499994755,"2 sold"],["Thu, 20 Feb 2014 05:00:00 +0000",1.14027452469,"1 sold"],["Thu, 20 Feb 2014 06:00:00 +0000",1.14997816086,"1 sold"],["Thu, 20 Feb 2014 07:00:00 +0000",1.39999997616,"3 sold"],["Thu, 20 Feb 2014 08:00:00 +0000",1.14999997616,"1 sold"],["Thu, 20 Feb 2014 10:00:00 +0000",1.43731379509,"1 sold"],["Thu, 20 Feb 2014 11:00:00 +0000",1.2800027132,"2 sold"],["Thu, 20 Feb 2014 12:00:00 +0000",1.41999995708,"3 sold"],["Thu, 20 Feb 2014 13:00:00 +0000",1.58026504517,"3 sold"],["Thu, 20 Feb 2014 14:00:00 +0000",1.58024322987,"3 sold"],["Thu, 20 Feb 2014 15:00:00 +0000",1.59398436546,"5 sold"],["Thu, 20 Feb 2014 16:00:00 +0000",1.44389784336,"4 sold"],["Thu, 20 Feb 2014 17:00:00 +0000",1.46000003815,"3 sold"],["Thu, 20 Feb 2014 18:00:00 +0000",1.49779570103,"3 sold"],["Thu, 20 Feb 2014 19:00:00 +0000",1.53901946545,"7 sold"],["Thu, 20 Feb 2014 20:00:00 +0000",1.38786578178,"5 sold"],["Thu, 20 Feb 2014 21:00:00 +0000",1.60260403156,"8 sold"],["Thu, 20 Feb 2014 23:00:00 +0000",1.33290088177,"5 sold"],["Fri, 21 Feb 2014 00:00:00 +0000",1.36038327217,"1 sold"],["Fri, 21 Feb 2014 01:00:00 +0000",1.38499999046,"4 sold"],["Fri, 21 Feb 2014 02:00:00 +0000",1.26419460773,"2 sold"],["Fri, 21 Feb 2014 03:00:00 +0000",1.25999999046,"1 sold"],["Fri, 21 Feb 2014 04:00:00 +0000",1.27793574333,"1 sold"],["Fri, 21 Feb 2014 05:00:00 +0000",1.38999998569,"1 sold"],["Fri, 21 Feb 2014 06:00:00 +0000",1.37995529175,"2 sold"],["Fri, 21 Feb 2014 07:00:00 +0000",1.14674305916,"2 sold"],["Fri, 21 Feb 2014 08:00:00 +0000",1.37012851238,"1 sold"],["Fri, 21 Feb 2014 09:00:00 +0000",1.25999999046,"1 sold"],["Fri, 21 Feb 2014 10:00:00 +0000",1.26022863388,"1 sold"],["Fri, 21 Feb 2014 11:00:00 +0000",1.09610283375,"5 sold"]];
+			g_timePriceHistoryEarliest = new Date();
+			if ( line1 != false )
+			{
+				g_timePriceHistoryEarliest = new Date(line1[0][0]);
+				g_timePriceHistoryLatest = new Date(line1[line1.length-1][0]);
+			}
+
+			var strFormatPrefix = "&#36;";
+			var strFormatSuffix = "";
+
+			g_plotPriceHistory = CreatePriceHistoryGraph( line1, 7, strFormatPrefix, strFormatSuffix );
+
+			pricehistory_zoomMonthOrLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );
+		});
+	
+			$J(document).ready( function(){
+			InstallMarketActionMenuButtons();
+		});
+	
+	</script>
+
+</body>
+</html>
